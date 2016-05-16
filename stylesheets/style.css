@@ -1,3 +1,23 @@
+.numero{
+  height: 40px;
+  width: 50px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.input-group-btn {
+  display: inline-block;
+}
+.btn-signo{
+  height: 20px;
+  padding: 0 18px 0 5px;
+  font-size: 10px;
+}
+.btrr{
+  border-top-right-radius: 30px !important;
+}
+.bbrr{
+  border-bottom-right-radius: 30px !important;
+}
 .seccion-productos, .seccion-blog, .seccion-comprar{
   max-width: 1150px;
   margin: 0 auto;
@@ -117,6 +137,9 @@
 .pr-5{
   padding-right: 5px !important;
 }
+.pr-25{
+  padding-right: 25px !important;
+}
 .pl-5{
   padding-left: 5px !important;
 }
@@ -185,6 +208,9 @@
 
 .fz-54{
   font-size: 54px;
+}
+.fz-45{
+  font-size: 45px;
 }
 .fz-20{
   font-size: 20px;
