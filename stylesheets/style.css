@@ -45,7 +45,7 @@
   height: 44px;
   background-color: #000;
 }
-.navbar {
+.navbar-general {
   margin: 44px 0 0 0;
   padding: 0 140px;
   height: 85px;
@@ -54,6 +54,20 @@
 .navbar-brand{
   padding: 0px;
   margin: 15px 0 0  30px !important;
+}
+.navbar{
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0;
+}
+.max-width{
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.navbar-inverse{
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .nav li {
   margin: 10px 0;
