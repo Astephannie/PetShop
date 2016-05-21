@@ -57,10 +57,6 @@
 .seccion{
   padding: 60px 0;
 }
-.seccion-productos, .seccion-blog, .seccion-comprar{
-  max-width: 1150px;
-  margin: 0 auto;
-}
 .subtitulo{
   font-family: AmaticBold;
   font-size: 55px;
