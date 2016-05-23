@@ -4,7 +4,7 @@
   height: 85px;
   position: fixed;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 44px;
   z-index: 20;
 }
 .navbar-clasificacion{
@@ -15,6 +15,7 @@
   border-radius: 0;
   border-color: #000;
   background-color: #000;
+  min-height: 44px;
 }
 .nav-arriba{
   position: absolute;
@@ -75,7 +76,14 @@
 /*   SECCIONES  */
 
 #slider{
-  padding-top: 135px;
+  padding-top: 130px;
+}
+.carousel-indicators li {
+  border: 1px solid #000;
+}
+.carousel-indicators .active {
+  background-color: #ACD036;
+  border: 2px solid #000;
 }
 .separador{
   border-bottom: 2px solid #000;
@@ -159,7 +167,7 @@ a{
 }
 a:hover, a:active{
   font-family: Tit-Bold;
-  background: #fff !important;
+  background: transparent !important;
   color: #000;
 }
 
