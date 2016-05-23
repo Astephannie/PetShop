@@ -198,9 +198,9 @@
         </div>  
       </div>          
     </header>
-    <section class="seccion">      
+    <section class="seccion pt-160">      
       <div class="row max-width">
-        <div class="col-sm-4 col-sm-offset-1 text-center">
+        <div class="col-sm-4 col-sm-offset-1 text-center pt-50">
           <a href="#x">
             <img src="assets/images/producto.png" alt="Image" class="img-responsive">                    
           </a>
@@ -216,24 +216,38 @@
           <h2 class="ff-AmaticBold fz-45 text-left">HILL'S CAN ADULT LAMB & RICE</h2> 
           <p class="ff-TitReg fz-18">Hill's&reg; Science Diet&reg; Adult Advanced Fitness harina de cordero y arroz comida para perros proporciona la nutrición equilibrada, precisamente para una diferencia visible.</p>
           <p class="ff-TitReg fz-12">Código ALIM 1-002</p>
-          <p class="ff-TitBold fz-45 txt-verde">S/.305</p>
+          <p class="ff-TitBold fz-35 txt-verde">S/.305</p>
           <span class="ff-TitBold fz-18 pr-25">Presentación</span>
           <input type="radio" name="peso" value="kg"><span class="ff-TitReg fz-18"> 15 Kg </span><br>
-          <div class="row">
-            <div class="col-xs-4">
-              <button type="button" class="btn bg-verde-osc btn-nav ff-TitBold fz-12">Agregar al carrito</button>
+          <div class="row pt-25">
+            <div class="col-md-4 col-md-offset-2">
+              <button type="button" class="btn btn-detalle bg-amarillo ff-TitBold fz-12"><img src="assets/icons/carrito-hover.png" class="pr-10">Agregar al carrito</button>
             </div>
-            <div class="col-xs-4">
-              <button type="button" class="btn bg-verde-osc btn-nav ff-TitBold fz-12">Añadir a mi wishlist</button>
+            <div class="col-md-4">
+              <button type="button" class="btn btn-detalle ff-TitBold fz-12"><img src="assets/icons/wishlist-pop-up.png" class="pr-10">Añadir a mi wishlist</button>
             </div>
-          </div>          
+          </div> 
+          <div class="bs-example bs-example-tabs tab-detalle" data-example-id="togglable-tabs"> 
+            <ul id="myTabs" class="nav nav-tabs" role="tablist"> 
+              <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true" class="ff-TitBold">Información</a></li> 
+              <li role="presentation" class=""><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false" class="ff-TitBold">Reseñas</a></li>
+            </ul> 
+            <div id="myTabContent" class="tab-content"> 
+              <div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab"> 
+                <p class="fz-12">Hill's&reg; Science Diet&reg; Adult Advanced Fitness harina de cordero y arroz comida para perros proporciona la nutrición equilibrada, precisamente para una diferencia visible.</p> 
+              </div> 
+              <div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab"> 
+                <p>Reseñas ...</p> 
+              </div>
+            </div> 
+          </div>         
         </div>
       </div>
     </section>    
     <div class="separador"></div>
     <section id="productos-populares" class="seccion text-center max-width">
       <h2 class="subtitulo text-left" style="padding-left: 100px;">PRODUCTOS RELACIONADOS</h2>
-      <div class="col-md-12">
+      <div class="row">
         <div id="myCarousel" class="carousel slide">                
           <!-- Carousel items -->
           <div class="carousel-inner">
@@ -479,7 +493,6 @@
           <a class="right carousel-control bg-none hidden" href="#myCarousel" data-slide="next"><img src="assets/icons/flecha-slide.png" class="flecha-right"></a>
         </div>
       </div>
-      <a href="" class="ff-TitBold">Ver más productos</a>
     </section>    
     <footer class="footer">
       <div class="max-width">
@@ -528,5 +541,11 @@
     <script src="javascripts/carousel-4.js"></script>
     <!-- JavaScript -->
     <script type="text/javascript" src="javascripts/app.js"></script>
+    <script type="text/javascript">
+      $('#myTabs a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+      })
+    </script>
   </body>
 </html>

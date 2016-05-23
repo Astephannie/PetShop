@@ -198,6 +198,28 @@
   height: 44px;
 }
 
+/*  OTROS HTML  */
+
+.tab-detalle{
+  padding-top: 25px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  background-color: #ACD036 !important;
+  border-radius: 0 !important;
+  border: none !important;
+  color: #000 !important;
+  font-family: Tit-Bold;
+}
+.nav-tabs, .nav-tabs>li>a:hover {
+  border: none;
+}
+.btn-detalle{
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 20px;
+}
+
+
 /*  CLASES GENERALES  */
 
 .max-width{
@@ -271,7 +293,9 @@ a:hover, a:active, a:focus{
 .pb-20{padding-bottom: 20px;}
 .pb-40{padding-bottom: 40px;}
 .pt-10{padding-top: 10px;}
+.pt-25{padding-top: 25px;}
 .pt-50{padding-top: 50px;}
+.pt-160{padding-top: 160px;}
 .pr-0{padding-right: 0;}
 .pr-5{padding-right: 5px !important;}
 .pr-10{padding-right: 10px;}
@@ -291,6 +315,7 @@ a:hover, a:active, a:focus{
 .bg-gris{background-color: #FAFAFA;}
 .bg-color{background-color: #cecece;}
 .bg-blanco{background-color: #fff;}
+.bg-amarillo{background-color: #FFEC00;}
 .txt-amarillo{color: #F9ED10;}
 .txt-verde{color: #ADD037;}
 .txt-anaranjado{color: #F9A11B;}
@@ -301,6 +326,7 @@ a:hover, a:active, a:focus{
 /* FONT - SIZE */
 
 .fz-50{font-size: 50px;}
+.fz-35{font-size: 35px;}
 .fz-18{font-size: 18px;}
 .fz-16{font-size: 16px;}
 .fz-14{font-size: 14px;}
