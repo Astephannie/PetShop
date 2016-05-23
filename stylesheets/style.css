@@ -17,6 +17,11 @@
   background-color: #000;
   min-height: 44px;
 }
+.a-blanco>li>a:focus, .a-blanco>li>a:hover {
+  text-decoration: none;
+  background-color: none;
+  color: #fff;
+}
 .nav-arriba{
   position: absolute;
   top: 0;
@@ -217,7 +222,7 @@
 a{
   color: #000;
 }
-a:hover, a:active{
+a:hover, a:active, a:focus{
   font-family: Tit-Bold;
   background: transparent !important;
   color: #000;
