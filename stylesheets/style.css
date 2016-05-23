@@ -131,14 +131,17 @@
   height: 60px;
 }
 .flecha-left{
-  width: 35%;
-  margin-top: 60%;
-  margin-left: -50px;
+  width: 40%;
+  margin-top: 90%;
+  margin-left: -15px;
 }
 .flecha-right{
-  width: 35%;
-  margin-top: 60%;
-  margin-right: -50px;
+  width: 40%;
+  margin-top: 90%;
+  margin-right: -15px;
+}
+.carousel-control {
+  width: 8%;
 }
 
 /*  SECCION - PRODUCTO  */
